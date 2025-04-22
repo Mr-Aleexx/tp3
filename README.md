@@ -15,13 +15,13 @@
 
 Pour cette exercice, Je serais Porthos et Liam sera Porthos.
 
-- J'ai crée un nouveau repository.
-- Je l'ai partagée avec Alex.
-- On a chacun cloner le projet
-
-- Alex a mofifiers les fichiers du TP2. Et a synchroniser le dépôt distant avec son dépôt local.
+- J'ai modifié les fichiers du TP2. Et synchronisé le dépôt distant avec mon dépôt local.
 - J'ai fais la commande *git pull*.
 - Les dépôts sont synchroniser de son côté comme du miens.
+
+- Il a créernouveau repositoire.
+- Je l'ai partagée avec Athos.
+- On a chacun cloner le projet
 
 
 ## 2. Développement d'un projet java en équipe
@@ -66,7 +66,7 @@ Cette commande va fusionner la branch passer en paramètre avec la branch où on
 Après avoir fusionner, si on fait *ls*, on voit que le contenue de la branch fusionner est 
 apparût au niveau où on se trouve.
 
-J'ai crée *AthosCoin.java* et Alex a crée *PorthosCoin.java*. Nous avons chacun fusionner la branch 
+J'ai crée *PorthosCoin.java* et Liam a crée *AthosCoin.java*. Nous avons chacun fusionner la branch 
 crée avec notre branch main chacun de notre côté. Alex a *push* ses fichiers, j'ai ensuite *pull* pour 
 récupérer ses fichiers, j'ai *commit*, puis *push* mes fichiers sur le dépôt distant.
 
