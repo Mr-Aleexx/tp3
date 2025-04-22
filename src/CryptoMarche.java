@@ -31,25 +31,37 @@ public class CryptoMarche
 	 */
 	public double capitalEnEuros(String proprietaire)
 	{
-		/**
-			FONCTION Ã€ IMPLEMENTER
-		**/
-		return 0;
+		double capitalProprietaire = 0;
+		
+		for ( Portefeuille pf : this.portefeuilles )
+		{
+			if (pf.estProprietaire( proprietaire ) )
+				capitalProprietaire = capitalProprietaire + pf.valeurEnEuros();
+		}
+		
+		return capitalProprietaire;
 	}
 
 	/**
 	 * Cette fonction recherche sur le marchÃ© tous les portefeuilles 
 	 * d'un type de devise et calcule le volume total de capital de 
-	 * cette devise sur le marchÃ© 
+	 * cette devise sur le marché 
 	 * @param monnaie
 	 * @return capital total en circulation de la cryptomonnaie (en euros).
 	 */
 	public double capitalMonneaie(Cryptomonnaie monnaie)
 	{
-		/**
-			FONCTION Ã€ IMPLEMENTER
-		**/
-		return 0;
+		double capital = 0;
+		
+		for(Portefeuille p : this.portefeuilles)
+		{
+			if(p.getMonnaie().getNom().equals(monnaie.getNom()))
+			{
+				capital += p.valeurEnEuros();
+			}
+		}
+		
+		return capital;
 	}
 
 
