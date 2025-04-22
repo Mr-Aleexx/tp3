@@ -93,4 +93,4 @@ public class Portefeuille
 		     + this.monnaie.toString()            + " = "
 		     + String.format("%10.1f", valeurEnEuros());
 	}
-}
+} 
